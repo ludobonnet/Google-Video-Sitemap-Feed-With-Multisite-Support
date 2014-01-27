@@ -1,3 +1,11 @@
+FORK OF Google Video Sitemap Feed With Multisite Support version 0.8
+
+add Dailymotion and Vimeo support
+add compatibility with Premium WordPress Theme From WPExplorer
+
+=== Google Video Sitemap Feed With Multisite Support ===
+
+
 === Google Video Sitemap Feed With Multisite Support ===
 Contributors: artprojectgroup 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SJTSWRFD2UTA8
