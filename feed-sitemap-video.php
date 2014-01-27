@@ -182,10 +182,7 @@ if (!empty($entradas))
 				{
 					$titulo = $entrada->post_title;
 					$descripcion = $extracto;
-                    $post_thumbnail = wp_get_attachment_url( get_post_thumbnail_id($entrada->id) );
-                    if (!empty($post_thumbnail)) {
-                        $video['thumbnail'] = $post_thumbnail;
-                    } elseif ($video['provider'] == 'vimeo') {
+                    if ($video['provider'] == 'vimeo') {
                         $info = get_video_information($video['id'], $video['provider']);
                         $video['thumbnail'] = $info->thumbnail_large;
                     }
