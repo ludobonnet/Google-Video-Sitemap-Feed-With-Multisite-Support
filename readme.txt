@@ -1,18 +1,10 @@
-FORK OF Google Video Sitemap Feed With Multisite Support version 0.8
-
-add Dailymotion and Vimeo support
-add compatibility with Premium WordPress Theme From WPExplorer
-
-=== Google Video Sitemap Feed With Multisite Support ===
-
-
 === Google Video Sitemap Feed With Multisite Support ===
 Contributors: artprojectgroup 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SJTSWRFD2UTA8
 Tags: google, google Video, google video sitemap, video sitemap, sitemap video, sitemap, sitemap-video.xml
 Requires at least: 2.6
-Tested up to: 3.8
-Stable tag: 0.8
+Tested up to: 3.8.1
+Stable tag: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +63,8 @@ Si, se han descrito errores al utilizarlo conjuntamente con el plugin **Google X
 1. Captura de pantalla del archivo `sitemap-video.xml`.
 
 == Changelog ==
+= 0.9 =
+* Añadida nueva función que limpia la base de datos al desinstalar el plugin.
 = 0.8 =
 * Arreglo en la codificación de las entidades RSS.
 = 0.7 =
@@ -93,6 +87,8 @@ Si, se han descrito errores al utilizarlo conjuntamente con el plugin **Google X
 * Versión inicial.
 
 == Upgrade Notice ==
+= 0.9 =
+* Añadida nueva función que limpia la base de datos al desinstalar el plugin.
 = 0.8 =
 * Arreglo en la codificación de las entidades RSS.
 = 0.7 =

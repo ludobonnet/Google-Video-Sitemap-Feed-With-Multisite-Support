@@ -6,8 +6,6 @@
  */
 
 set_time_limit(300);
-//error_reporting(E_ALL);
-//ini_set("display_errors", 1);
 
 //Procesa correctamente las entidades del RSS
 $entity_custom_from = false; 
@@ -42,7 +40,6 @@ function sitemap_video_html_entity($data) {
 }
 
 //Obtiene información del vídeo
-//function informacion_del_video($identificador) {
 function get_youtube_information($identificador) {
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, "http://gdata.youtube.com/feeds/api/videos/$identificador");
